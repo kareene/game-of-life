@@ -1,0 +1,29 @@
+table, th, td {
+    border: 1px solid black;
+}
+  
+.cell {
+    height: 30px;
+    width: 30px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.life {
+    background-color: chartreuse;
+}
+
+.over {
+    position: absolute;
+    top: 210px;
+    left: 119px;
+    border: 1px solid black;
+    background-color: chartreuse;
+    padding: 20px;
+    display: block;
+}
+button {
+    cursor: pointer;
+    margin-bottom: 5px;
+}
